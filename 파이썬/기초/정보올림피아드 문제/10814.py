@@ -1,7 +1,6 @@
 n = int(input())
 l = []
-# 잘못된 코드입니다....
-# 가입한 순서가 중요합니다! 2순위
+
 for i in range(n):
     age, name = input().split()
     age = int(age)  # 문자 나이를 숫자 나이로 교체
